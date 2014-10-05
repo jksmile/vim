@@ -23,6 +23,8 @@ Plugin 'godlygeek/tabular'
 Plugin 'tpope/vim-fugitive'
 Plugin 'mikelue/vim-maven-plugin'
 Plugin 'Lokaltog/vim-powerline'
+Plugin 'tpope/vim-surround'
+"Plugin 'Raimondi/delimitMate'
 "Plugin 'airblade/vim-gitgutter'
 "Plugin 'Valloric/YouCompleteMe'
 
