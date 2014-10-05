@@ -4,6 +4,7 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 " set the runtime path to include Vundle and initialize
+:let $VIM = "D:/Tools/vim"
 set rtp+=$VIM/vimfiles/bundle/Vundle.vim/
 let path='$VIM/vimfiles/bundle'
 call vundle#begin(path)
@@ -24,6 +25,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'mikelue/vim-maven-plugin'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'tpope/vim-surround'
+Plugin 'vim-scripts/grep.vim'
 "Plugin 'Raimondi/delimitMate'
 "Plugin 'airblade/vim-gitgutter'
 "Plugin 'Valloric/YouCompleteMe'
