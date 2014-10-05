@@ -135,7 +135,7 @@ set incsearch                " 开启实时搜索功能
 "-----------------------
 "About Taglist.
 "-----------------------
-let Tlist_Ctags_Cmd = 'd:\Tools\ctags58\ctags.exe'
+let Tlist_Ctags_Cmd = '$VIM\ctags\ctags.exe'
 let Tlist_Exit_OnlyWindow = 1
 let Tlist_Auto_Open = 0
 let Tlist_Use_Right_Window = 1
